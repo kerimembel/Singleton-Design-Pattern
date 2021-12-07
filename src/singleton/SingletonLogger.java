@@ -16,12 +16,10 @@ public class SingletonLogger {
     }
 
     public void info(String message) {
-
         System.out.println(GREEN + message + GREEN);
     }
 
     public void error(String message) {
-
         System.out.println(RED + message + RED);
     }
 }
