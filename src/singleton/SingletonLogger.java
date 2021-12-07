@@ -2,15 +2,15 @@ package singleton;
 
 import static singleton.Constants.*;
 
-public class LoggerSingleton {
+public class SingletonLogger {
 
-    private static LoggerSingleton logger;
+    private static SingletonLogger logger;
 
-    private LoggerSingleton() {}
+    private SingletonLogger() {}
 
-    public static LoggerSingleton getLogger() {
+    public static SingletonLogger getLogger() {
         if(logger == null) {
-            logger = new LoggerSingleton();
+            logger = new SingletonLogger();
         }
         return logger;
     }

@@ -1,11 +1,11 @@
-import singleton.LoggerSingleton;
+import singleton.SingletonLogger;
 
 public class Main {
 
     public static void main(String[] args){
 
-        LoggerSingleton LOGGER1 = LoggerSingleton.getLogger();
-        LoggerSingleton LOGGER2 = LoggerSingleton.getLogger();
+        SingletonLogger LOGGER1 = SingletonLogger.getLogger();
+        SingletonLogger LOGGER2 = SingletonLogger.getLogger();
 
         System.out.println("LOGGER1 -> " + LOGGER1);
         System.out.println("LOGGER2 -> " + LOGGER2);
